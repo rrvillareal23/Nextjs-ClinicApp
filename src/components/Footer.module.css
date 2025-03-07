@@ -1,0 +1,52 @@
+.footerContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #1f2937;
+  border-top: 1px solid #ddd;
+  font-size: 14px;
+  color: white;
+
+  /* Sticky Footer with Flexbox */
+  width: 100%;
+  padding: 1rem 2rem;
+  margin-top: auto; /* Push footer to the bottom if the page has little content */
+}
+
+.branding img {
+  display: block;
+}
+
+.copyright {
+  flex: 1;
+  text-align: center;
+}
+
+.rightSection {
+  text-align: right;
+}
+
+.menu {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.menu li {
+  display: inline;
+  margin: 0 10px;
+}
+
+.menu a {
+  text-decoration: underline;
+  color: #ffffff;
+}
+
+.menu a:hover {
+  text-decoration: underline;
+}
+
+.bottomText {
+  margin-top: 10px;
+  font-style: italic;
+}
